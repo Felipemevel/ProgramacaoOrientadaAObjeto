@@ -1,3 +1,5 @@
+package Lista01.J_SequenciaIJ1;
+
 import java.io.IOException;
 
 public class Main {

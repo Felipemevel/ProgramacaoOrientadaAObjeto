@@ -1,3 +1,5 @@
+package Lista01.I_Dama;
+
 import java.io.IOException;
 import java.util.Scanner;
 import java.lang.Math;

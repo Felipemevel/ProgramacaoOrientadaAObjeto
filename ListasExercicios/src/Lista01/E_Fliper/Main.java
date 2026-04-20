@@ -1,3 +1,5 @@
+package Lista01.E_Fliper;
+
 import java.io.IOException;
 import java.util.Scanner;
 

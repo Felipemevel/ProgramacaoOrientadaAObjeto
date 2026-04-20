@@ -1,3 +1,5 @@
+package Lista01.H_Consumo;
+
 import java.io.IOException;
 import java.util.Scanner;
 

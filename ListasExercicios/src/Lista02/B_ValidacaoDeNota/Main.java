@@ -1,3 +1,5 @@
+package Lista02.B_ValidacaoDeNota;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

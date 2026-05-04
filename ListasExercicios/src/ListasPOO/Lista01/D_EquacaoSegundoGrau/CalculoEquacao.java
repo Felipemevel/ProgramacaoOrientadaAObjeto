@@ -74,6 +74,6 @@ public class CalculoEquacao {
         int formatacaoA = (int) Math.round(a);
         int formatacaoB = (int) Math.round(b);
         int formatacaoC = (int) Math.round(c);
-        return formatacaoA + "x² + " + formatacaoB + "x + " + formatacaoC + " = 0";
+        return formatacaoA + "x² " + formatacaoB + "x + " + formatacaoC + " = 0";
     }
 }

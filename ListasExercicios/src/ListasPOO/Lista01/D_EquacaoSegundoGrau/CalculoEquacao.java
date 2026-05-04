@@ -11,7 +11,9 @@ public class CalculoEquacao {
     }
 
     public CalculoEquacao (double a, double b, double c){
-
+        this.a = a;
+        this.b = b;
+        this.c = c;
     }
 
     public double getA() {
@@ -65,5 +67,13 @@ public class CalculoEquacao {
         raizes[1] = x2;
 
         return raizes;
+    }
+
+    @Override
+    public String toString() {
+        int formatacaoA = (int) Math.round(a);
+        int formatacaoB = (int) Math.round(b);
+        int formatacaoC = (int) Math.round(c);
+        return formatacaoA + "x² + " + formatacaoB + "x + " + formatacaoC + " = 0";
     }
 }

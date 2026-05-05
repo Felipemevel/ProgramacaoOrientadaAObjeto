@@ -17,7 +17,7 @@ public class Retangulo {
         if (b >= 0){
             this.b = b;
         } else {
-            System.out.println("Valor inválido! Digite um valor positivo.");
+            System.out.println("> Valor de base inválido! Digite um valor positivo.");
         }
     }
 
@@ -25,7 +25,7 @@ public class Retangulo {
         if (h >= 0){
             this.h = h;
         } else {
-            System.out.println("Valor inválido! Digite um valor positivo.");
+            System.out.println("> Valor de altura inválido! Digite um valor positivo.");
         }
     }
 
@@ -46,6 +46,6 @@ public class Retangulo {
     }
 
     public String toString(){
-        return "Base: " + b + " \nAltura: " + h + "\nÁrea: " + calcArea() + "\nDiagonal: " + calcDiagonal();
+        return "> Base: " + b + " \n> Altura: " + h + "\n> Área: " + calcArea() + "\n> Diagonal: " + calcDiagonal();
     }
 }

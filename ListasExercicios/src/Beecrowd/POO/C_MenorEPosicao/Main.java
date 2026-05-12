@@ -15,10 +15,10 @@ class Vetor {
     }
 
     public void encontrarValorEPosicao(){
-        int recordeMenor = 0;
+        int recordeMenor = lista[0];
         int idxMenor = 0;
 
-        for (int i = 0; i < lista.length; i++){
+        for (int i = 1; i < lista.length; i++){
             if (lista[i] < recordeMenor){
                 recordeMenor = lista[i];
                 idxMenor = i;
